@@ -1,0 +1,16 @@
+struct Timer {
+	
+	chrono::time_point<std::chrono::_V2::system_clock> start, end;
+	chrono::duration<double> duration;
+	
+	Timer() {
+		start = chrono::high_resolution_clock::now();
+	}
+	
+	~Timer() {
+		end = chrono::high_resolution_clock::now();
+		duration = end-start;
+		cout << "Time took: " << duration.count()*1000 << " ms" << endl;
+	}
+	
+};
