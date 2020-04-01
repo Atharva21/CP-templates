@@ -34,6 +34,7 @@ int main() {
 	// deb(v.size());
 	// printVector(v);
 	// clear vector contents.
+	//empty() checks..
 	
 }
 
