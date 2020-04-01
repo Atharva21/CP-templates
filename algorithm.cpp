@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// refrence link: http://www.cplusplus.com/reference/algorithm/
 
 #define deb(x) cout << #x << ": " << x << "\t##" << endl;
 #define fo(i, n) for(int i=0;i<n;++i)
